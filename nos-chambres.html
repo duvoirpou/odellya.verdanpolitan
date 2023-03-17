@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Verda Politan.">
+    <meta name="author" content="APC">
+    <title>Verda Politan.</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/logo-verdan.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/logo-verdan.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/logo-verdan.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/logo-verdan.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/logo-verdan.png">
+
+    <!-- GOOGLE WEB FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/vendors.css" rel="stylesheet">
+	
+	<!-- SPECIFIC CSS -->
+    <link href="layerslider/css/layerslider.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="page">
+
+		<header class="header menu_fixed">
+			<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
+			<div id="logo">
+				<a href="index.html">
+					<img src="img/logo-verdan.png" width="150" height="36" alt="" class="logo_normal">
+					<img src="img/logo-verdan.png" width="150" height="36" alt="" class="logo_sticky">
+				</a>
+			</div>
+			<!-- <ul id="top_menu">
+				<li><a href="cart-1.html" class="cart-menu-btn" title="Cart"><strong>4</strong></a></li>
+				<li><a href="#sign-in-dialog" id="sign-in" class="login" title="Sign In">Sign In</a></li>
+				<li><a href="wishlist.html" class="wishlist_bt_top" title="Your wishlist">Your wishlist</a></li>
+			</ul> -->
+			<!-- /top_menu -->
+			<a href="#menu" class="btn_mobile">
+				<div class="hamburger hamburger--spin" id="hamburger">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+			</a>
+			<nav id="menu" class="main-menu">
+				<ul>
+					<li><span><a href="index.html">Accueil</a></span>
+						
+					</li>
+					
+					<li><span><a href="about.html">Présentation</a></span></li>
+					<li><span><a href="nos-services.html">Nos services</a></span></li>
+					<li><span><a href="nos-chambres.html">Nos chambres</a></span></li>
+					<li><span><a href="#.html">Réservations</a></span></li>
+					<li><span><a href="contacts.html">Contact</a></span></li>
+					<!-- <li><span><a href="#0">Pages</a></span>
+						<ul>
+							<li><a href="about.html">About</a></li>
+							<li><a href="media-gallery.html">Media gallery</a></li>
+							<li><a href="help.html">Help Section</a></li>
+							<li><a href="faq.html">Faq Section</a></li>
+							<li><a href="wishlist.html">Wishlist page</a></li>
+							<li><a href="contacts.html">Contacts</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="register.html">Register</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="bootstrap-modal.html">Bootstrap Modal <strong class="badge text-bg-danger">New!</strong></a></li>
+							<li><a href="modal-version-2.html">Another Modal <strong class="badge text-bg-danger">New!</strong></a></li>
+							<li><a href="pricing-tables-2.html">Pricing Tables 1 <strong class="badge text-bg-danger">New!</strong></a></li>
+							<li><a href="pricing-tables-3.html">Pricing Tables 2 <strong class="badge text-bg-danger">New!</strong></a></li>
+						</ul>
+					</li> -->
+				</ul>
+			</nav>
+	
+		</header>
+		<!-- /header -->
+
+		<main>
+
+			<section class="hero_in hotels">
+				<div class="wrapper">
+					<div class="container">
+						<h1 class="fadeInUp"><span></span>Nos chambres</h1>
+					</div>
+				</div>
+			</section>
+			<!--/hero_in-->
+
+			<div class="filters_listing sticky_horizontal">
+				<div class="container">
+					<ul class="clearfix">
+						<li>
+							<div class="switch-field">
+								<input type="radio" id="all" name="listing_filter" value="all" checked data-filter="*"
+									class="selected">
+								<label for="all">All</label>
+								<input type="radio" id="standard" name="listing_filter" value="standard" checked
+									data-filter=".standard">
+								<label for="standard">Standards</label>
+								<input type="radio" id="popular" name="listing_filter" value="popular"
+									data-filter=".popular">
+								<label for="popular">Annexe</label>
+								<input type="radio" id="latest" name="listing_filter" value="latest"
+									data-filter=".latest">
+								<label for="latest">Luxe</label>
+							</div>
+						</li>
+						<li>
+							<!-- <div class="layout_view">
+								<a href="#0" class="active"><i class="icon-th"></i></a>
+								<a href="hotels-list-isotope.html"><i class="icon-th-list"></i></a>
+							</div> -->
+						</li>
+						<li>
+							<!-- <a class="btn_map" data-bs-toggle="collapse" href="#collapseMap" aria-expanded="false"
+								aria-controls="collapseMap" data-text-swap="Hide map"
+								data-text-original="View on map">View on map</a> -->
+						</li>
+					</ul>
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /filters -->
+
+			<div class="collapse" id="collapseMap">
+				<div id="map" class="map"></div>
+			</div>
+			<!-- End Map -->
+
+			<div class="container margin_60_35">
+				<div class="col-lg-12">
+					<!-- <div class="row g-0 custom-search-input-2 inner">
+					<div class="col-lg-4">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="What are you looking for...">
+							<i class="icon_search"></i>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Where">
+							<i class="icon_pin_alt"></i>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<select class="wide">
+							<option>All Categories</option>	
+							<option>Paris Center</option>
+							<option>La Defanse</option>
+							<option>Latin Quarter</option>
+						</select>
+					</div>
+					<div class="col-lg-2">
+						<input type="submit" class="btn_search" value="Search">
+					</div>
+				</div> -->
+					<!-- /row -->
+				</div>
+				<!-- /custom-search-input-2 -->
+
+				<div class="isotope-wrapper">
+					<div class="row">
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item popular">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_annexes/DSC_8705.jpg"
+											class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre annexe</a></h3>
+									<p>
+										Superficie entre 9 et 11m² incluant la salle de bain. Chambre équipée d'un lit
+										confortable de 2m². Un poste téléviseur plasma et cable. Un très grand garde de
+										linge. Un mini frigo et un canapé.
+									</p>
+									<!-- <span class="price">From <strong>$54</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Superb<em>350 Reviews</em></span><strong>8.9</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<!-- /box_grid -->
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item latest">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_de_luxe/chambre 24.jpg"
+											class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre de luxe</a></h3>
+									<p>
+										Superficie entre 10 et 15m² incluant la salle de bain. Chambre équipée d'un lit
+										très confortable de 2m². Un poste téléviseur plasma et cable. Un très grand
+										garde de linge. Un mini frigo et un canapé. Une douche équipée d'une baignoire.
+									</p>
+									<!-- <span class="price">From <strong>$124</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.0</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<!-- /box_grid -->
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item popular">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_annexes/DSC_8707.jpg"
+											class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre annexe</a></h3>
+									<p>
+										Superficie entre 9 et 11m² incluant la salle de bain. Chambre équipée d'un lit
+										confortable de 2m². Un poste téléviseur plasma et cable. Un très grand garde de
+										linge. Un mini frigo et un canapé.
+									</p>
+									<!-- <span class="price">From <strong>$25</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.0</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<!-- /box_grid -->
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item latest">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_de_luxe/DSC_8644.jpg"
+											class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre de luxe</a></h3>
+									<p>
+										Superficie entre 10 et 15m² incluant la salle de bain. Chambre équipée d'un lit
+										très confortable de 2m². Un poste téléviseur plasma et cable. Un très grand
+										garde de linge. Un mini frigo et un canapé. Une douche équipée d'une baignoire.
+									</p>
+									<!-- <span class="price">From <strong>$45</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Superb<em>350 Reviews</em></span><strong>9.0</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<!-- /box_grid -->
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item popular">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_annexes/DSC_8710.jpg"
+											class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre annexe</a></h3>
+									<p>
+										Superficie entre 9 et 11m² incluant la salle de bain. Chambre équipée d'un lit
+										confortable de 2m². Un poste téléviseur plasma et cable. Un très grand garde de
+										linge. Un mini frigo et un canapé.
+									</p>
+									<!-- <span class="price">From <strong>$65</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.5</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item standard">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_standards/DSC_8692.jpg"
+											class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre standard</a></h3>
+									<p>
+										Superficie entre 8 et 10m² incluant la salle de bain. Chambre équipée d'un lit
+										très confortable de 2m². Un poste téléviseur plasma et cable. Un très grand
+										garde de linge. Un mini frigo et un canapé. Une douche équipée d'une baignoire.
+									</p>
+									<!-- <span class="price">From <strong>$54</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Superb<em>350 Reviews</em></span><strong>8.9</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<!-- /box_grid -->
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item latest">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_de_luxe/DSC_8655.jpg"
+											class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre de luxe</a></h3>
+									<p>
+										Superficie entre 10 et 15m² incluant la salle de bain. Chambre équipée d'un lit
+										très confortable de 2m². Un poste téléviseur plasma et cable. Un très grand
+										garde de linge. Un mini frigo et un canapé. Une douche équipée d'une baignoire.
+									</p>
+									<!-- <span class="price">From <strong>$95</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.8</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item popular">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_annexes/DSC_8711.jpg" class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre annexe</a></h3>
+									<p>
+										Superficie entre 9 et 11m² incluant la salle de bain. Chambre équipée d'un lit confortable de 2m². Un poste téléviseur plasma et cable. Un très grand garde de linge. Un mini frigo et un canapé.
+									</p>
+									<!-- <span class="price">From <strong>$95</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.8</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item standard">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_standards/DSC_8694.jpg" class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre standard</a></h3>
+									<p>
+										Superficie entre 8 et 10m² incluant la salle de bain. Chambre équipée d'un lit très confortable de 2m². Un poste téléviseur plasma et cable. Un très grand garde de linge. Un mini frigo et un canapé. Une douche équipée d'une baignoire.
+									</p>
+									<!-- <span class="price">From <strong>$95</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.8</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item latest">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_de_luxe/DSC_8656.jpg" class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre de luxe</a></h3>
+									<p>
+										Superficie entre 10 et 15m² incluant la salle de bain. Chambre équipée d'un lit très confortable de 2m². Un poste téléviseur plasma et cable. Un très grand garde de linge. Un mini frigo et un canapé. Une douche équipée d'une baignoire.
+									</p>
+									<!-- <span class="price">From <strong>$95</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.8</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item latest">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_de_luxe/DSC_8673.jpg" class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre de luxe</a></h3>
+									<p>
+										Superficie entre 10 et 15m² incluant la salle de bain. Chambre équipée d'un lit très confortable de 2m². Un poste téléviseur plasma et cable. Un très grand garde de linge. Un mini frigo et un canapé. Une douche équipée d'une baignoire.
+									</p>
+									<!-- <span class="price">From <strong>$95</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.8</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item standard">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_standards/DSC_8695.jpg" class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre standard</a></h3>
+									<p>
+										Superficie entre 8 et 10m² incluant la salle de bain. Chambre équipée d'un lit très confortable de 2m². Un poste téléviseur plasma et cable. Un très grand garde de linge. Un mini frigo et un canapé. Une douche équipée d'une baignoire.
+									</p>
+									<!-- <span class="price">From <strong>$95</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.8</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-6 col-md-6 isotope-item popular">
+							<div class="box_grid">
+								<figure>
+									<!-- <a href="#0" class="wish_bt"></a> -->
+									<a href="#"><img src="img/Chambres_annexes/DSC_8711.jpg" class="img-fluid" alt="" width="800" height="533">
+										<!-- <div class="read_more"><span>Lire plus</span></div> -->
+									</a>
+									<!-- <small>Paris Centre</small> -->
+								</figure>
+								<div class="wrapper">
+									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
+									<h3><a href="#">Chambre annexe</a></h3>
+									<p>
+										Superficie entre 9 et 11m² incluant la salle de bain. Chambre équipée d'un lit confortable de 2m². Un poste téléviseur plasma et cable. Un très grand garde de linge. Un mini frigo et un canapé.
+									</p>
+									<!-- <span class="price">From <strong>$95</strong> /per person</span> -->
+								</div>
+								<!-- <ul>
+							<li><i class="ti-eye"></i> 164 views</li>
+							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.8</strong></div></li>
+						</ul> -->
+							</div>
+						</div>
+						<!-- /box_grid -->
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /isotope-wrapper -->
+
+				<!-- <p class="text-center"><a href="#0" class="btn_1 rounded add_top_30">Load more</a></p> -->
+
+			</div>
+			<!-- /container -->
+
+			<div class="bg_color_1">
+				<div class="container margin_60_35">
+					<!-- <div class="row">
+						<div class="col-md-4">
+							<a href="#0" class="boxed_list">
+								<i class="pe-7s-help2"></i>
+								<h4>Need Help? Contact us</h4>
+								<p>Cum appareat maiestatis interpretaris et, et sit.</p>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="#0" class="boxed_list">
+								<i class="pe-7s-wallet"></i>
+								<h4>Payments</h4>
+								<p>Qui ea nemore eruditi, magna prima possit.</p>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="#0" class="boxed_list">
+								<i class="pe-7s-note2"></i>
+								<h4>Cancel Policy</h4>
+								<p>Hinc vituperata sed ut, pro laudem nonumes ex.</p>
+							</a>
+						</div>
+					</div> -->
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /bg_color_1 -->
+
+		</main>
+		<!--/main-->
+
+		<footer>
+			<div class="container margin_60_35">
+				<div class="row">
+					<div class="col-lg-5 col-md-12 pe-5">
+						<p><img src="img/logo-verdan.png" width="150" height="136" alt=""></p>
+						<p>
+							Dans le quartier cathédral entouré d’ambassades, dans une incroyable atmosphère de sérénité comme en banlieue Verda Politan vous accueille pour vous offrir un séjour réconfortant. 
+						</p>
+						<div class="follow_us">
+							<ul>
+								<li>Suivez-nous</li>
+								<li><a href="#0"><i class="ti-facebook"></i></a></li>
+								<li><a href="#0"><i class="ti-twitter-alt"></i></a></li>
+								<li><a href="#0"><i class="ti-google"></i></a></li>
+								<li><a href="#0"><i class="ti-pinterest"></i></a></li>
+								<li><a href="#0"><i class="ti-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 ms-lg-auto">
+						<h5>Liens rapides</h5>
+						<ul class="links">
+							<li><a href="about.html">Accueil</a></li>
+							<li><a href="login.html">Présentation</a></li>
+							<li><a href="register.html">Nos services</a></li>
+							<li><a href="blog.html">Nos chambres</a></li>
+							<li><a href="contacts.html">Réservations</a></li>
+							<li><a href="contacts.html">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<h5>Contactez-nous</h5>
+						<ul class="contacts">
+							<li><a href="tel://61280932400"><i class="ti-mobile"></i> 00242 05 312 12 12 / 06 688 88 86</a></li>
+							<li><a href="mailto:verdapolitan.hotel@gmail.com"><i class="ti-email"></i> verdapolitan.hotel@gmail.com</a></li>
+						</ul>
+						<p>
+							L’hôtel est ouvert 24h/24 
+						</p>
+						<div id="newsletter">
+						<!-- <h6>Newsletter</h6>
+						<div id="message-newsletter"></div>
+						<form method="post" action="phpmailer/newsletter_template_email.php" name="newsletter_form" id="newsletter_form">
+							<div class="form-group">
+								<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Your email">
+								<input type="submit" value="Submit" id="submit-newsletter">
+							</div>
+						</form> -->
+						</div>
+					</div>
+				</div>
+				<!--/row-->
+				<hr>
+				<div class="row">
+					<div class="col-lg-6">
+						<!-- <ul id="footer-selector">
+							<li>
+								<div class="styled-select" id="lang-selector">
+									<select>
+										<option value="English" selected>English</option>
+										<option value="French">French</option>
+										<option value="Spanish">Spanish</option>
+										<option value="Russian">Russian</option>
+									</select>
+								</div>
+							</li>
+							<li>
+								<div class="styled-select" id="currency-selector">
+									<select>
+										<option value="US Dollars" selected>US Dollars</option>
+										<option value="Euro">Euro</option>
+									</select>
+								</div>
+							</li>
+							<li><img src="img/cards_all.svg" alt=""></li>
+						</ul> -->
+					</div>
+					<div class="col-lg-6">
+						<ul id="additional_links">
+							<li><a href="#0">Terms and conditions</a></li>
+							<li><a href="#0">Privacy</a></li>
+							<li><span>© Verdapolitan</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--/footer-->
+	</div>
+	<!-- page -->
+
+	<!-- Sign In Popup -->
+	<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+		<div class="small-dialog-header">
+			<h3>Sign In</h3>
+		</div>
+		<form>
+			<div class="sign-in-wrapper">
+				<a href="#0" class="social_bt facebook">Login with Facebook</a>
+				<a href="#0" class="social_bt google">Login with Google</a>
+				<div class="divider"><span>Or</span></div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="email" class="form-control" name="email" id="email">
+					<i class="icon_mail_alt"></i>
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<input type="password" class="form-control" name="password" id="password" value="">
+					<i class="icon_lock_alt"></i>
+				</div>
+				<div class="clearfix add_bottom_15">
+					<div class="checkboxes float-start">
+						<label class="container_check">Remember me
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<div class="float-end mt-1"><a id="forgot" href="javascript:void(0);">Forgot Password?</a></div>
+				</div>
+				<div class="text-center"><input type="submit" value="Log In" class="btn_1 full-width"></div>
+				<div class="text-center">
+					Don’t have an account? <a href="register.html">Sign up</a>
+				</div>
+				<div id="forgot_pw">
+					<div class="form-group">
+						<label>Please confirm login email below</label>
+						<input type="email" class="form-control" name="email_forgot" id="email_forgot">
+						<i class="icon_mail_alt"></i>
+					</div>
+					<p>You will receive an email containing a link allowing you to reset your password to a new
+						preferred one.</p>
+					<div class="text-center"><input type="submit" value="Reset Password" class="btn_1"></div>
+				</div>
+			</div>
+		</form>
+		<!--form -->
+	</div>
+	<!-- /Sign In Popup -->
+
+	<div id="toTop"></div><!-- Back to top button -->
+
+	<!-- COMMON SCRIPTS -->
+	<script src="js/common_scripts.js"></script>
+	<script src="js/main.js"></script>
+	<script src="phpmailer/validate.js"></script>
+
+	<!-- Map -->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="js/markerclusterer.js"></script>
+	<script src="js/map_hotels.js"></script>
+	<script src="js/infobox.js"></script>
+
+	<!-- Masonry Filtering -->
+	<script src="js/isotope.min.js"></script>
+	<script>
+		$(window).on('load', function () {
+			var $container = $('.isotope-wrapper');
+			$container.isotope({ itemSelector: '.isotope-item', layoutMode: 'masonry' });
+		});
+
+		$('.filters_listing').on('click', 'input', 'change', function () {
+			var selector = $(this).attr('data-filter');
+			$('.isotope-wrapper').isotope({ filter: selector });
+		});
+	</script>
+
+
+
+</body>
+
+</html>
